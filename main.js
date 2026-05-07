@@ -3,6 +3,11 @@ const AGE_GATE_KEY = 'vapsolo_age_verified';
 const ageGate = document.getElementById('age-gate');
 const ageConfirm = document.getElementById('age-confirm');
 const ageDecline = document.getElementById('age-decline');
+const footerYear = document.getElementById('footer-year');
+
+if (footerYear) {
+  footerYear.textContent = new Date().getFullYear();
+}
 
 const hideAgeGate = () => {
   if (ageGate) ageGate.style.display = 'none';
