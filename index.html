@@ -18,6 +18,309 @@ try {
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
 <link rel="manifest" href="site.webmanifest" />
+<!-- TODO: Add Product offers only when real visible prices and stock status are available on this static page. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "OnlineStore",
+      "@id": "https://vapsolovape.pt/#organization",
+      "name": "VapSolo Portugal",
+      "url": "https://vapsolovape.pt/",
+      "logo": "https://vapsolovape.pt/favicon-96x96.png",
+      "image": "https://vapsolovape.pt/web-app-manifest-512x512.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "email": "info@vapeportugal.pt",
+          "telephone": "+351935718678",
+          "contactType": "customer support",
+          "areaServed": "PT",
+          "availableLanguage": [
+            "Portuguese"
+          ]
+        }
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "Portugal"
+      },
+      "availableLanguage": [
+        "pt-PT"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://vapsolovape.pt/#website",
+      "name": "VapSolo Vapes Descartáveis",
+      "url": "https://vapsolovape.pt/",
+      "publisher": {
+        "@id": "https://vapsolovape.pt/#organization"
+      },
+      "inLanguage": "pt-PT"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://vapsolovape.pt/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Página Inicial",
+          "item": "https://vapsolovape.pt/"
+        }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://vapsolovape.pt/#collection",
+      "name": "VapSolo Vapes Descartáveis em Portugal",
+      "url": "https://vapsolovape.pt/",
+      "description": "Vape descartável premium com modelos VapSolo de 12000 a 80000 tragadas, sabores intensos e opções com ou sem nicotina em Portugal.",
+      "isPartOf": {
+        "@id": "https://vapsolovape.pt/#website"
+      },
+      "about": {
+        "@id": "https://vapsolovape.pt/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://vapsolovape.pt/#breadcrumb"
+      },
+      "inLanguage": "pt-PT",
+      "mainEntity": {
+        "@type": "ItemList",
+        "@id": "https://vapsolovape.pt/#products",
+        "name": "Produtos VapSolo",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": 10,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Product",
+              "name": "Cigarro Eletrónico Descartável Viking 12K",
+              "image": "https://vapsolovape.pt/img/vapsolo-viking-12k-vape-descartável-portugal-strawberry-raspberry-ice-12000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-viking-12k-vape-descartavel-portugal",
+              "description": "VapSolo Viking 12K oferece 12000 tragadas com construção sólida e desempenho fiável.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "12000 tragadas"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Product",
+              "name": "Cigarro Eletrónico Descartável Super 15K",
+              "image": "https://vapsolovape.pt/img/vapsolo-super-15k-vape-descartável-portugal-blackberry-blueberry-ice-15000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-super-15k-vape-descartavel-portugal",
+              "description": "VapSolo Super 15K oferece 15000 tragadas com resposta rápida e passada suave.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "15000 tragadas"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Product",
+              "name": "Cigarro Eletrónico Descartável Twins 20K",
+              "image": "https://vapsolovape.pt/img/vapsolo-twins-20k-vape-descartável-portugal-watermelon-ice-strawberry-mango-20000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-twins-20k-vape-descartavel-portugal",
+              "description": "VapSolo Twins 20K oferece 20000 tragadas e tecnologia de dupla resistência para uso diário.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "20000 tragadas"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Product",
+              "name": "VapSolo Triple 30K",
+              "image": "https://vapsolovape.pt/img/vapsolo-triple-30k-vape-descartável-portugal-watermelon-ice-red-bull-strawberry-kiwi-30000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-triple-30k-vape-descartavel-portugal",
+              "description": "VapSolo Triple 30K oferece 30000 tragadas com configuração de tripla bobine.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "30000 tragadas"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "Product",
+              "name": "VapSolo King Pro 40K",
+              "image": "https://vapsolovape.pt/img/vapsolo-king-pro-40k-vape-descartável-portugal-peach-mango-pineapple-40000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-king-pro-40k-vape-descartavel-portugal",
+              "description": "VapSolo King Pro 40K oferece 40000 tragadas com entrega de sabor consistente e design elegante.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "40000 tragadas"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "Product",
+              "name": "VapSolo Mars 50K",
+              "image": "https://vapsolovape.pt/img/vapsolo-mars-50k-vape-descartável-portuga-peach-lemonade-50000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-mars-50k-vape-descartavel-portugal",
+              "description": "VapSolo Mars 50K oferece 50000 tragadas com tecnologia de fluxo de ar ajustável.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "50000 tragadas"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "Product",
+              "name": "VapSolo Twins Pro 50K",
+              "image": "https://vapsolovape.pt/img/vapsolo-twins-pro-50k-vape-descartável-portugal-passion-fruit-mojito-triple-mint-50000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-twins-pro-50k-vape-descartavel-portugal",
+              "description": "VapSolo Twins Pro 50K oferece 50000 tragadas, dupla Mesh Coil de 1,0 Ω e bateria recarregável USB Tipo-C.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "50000 tragadas"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "Product",
+              "name": "VapSolo Triple Pro 60K",
+              "image": "https://vapsolovape.pt/img/vapsolo-triple-pro-60k-vape-descartável-portugal-strawberry-vanilla-coke-blueberry-raspberry-lemon-lime-60000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-triple-pro-60k-vape-descartavel-portugal",
+              "description": "VapSolo Triple Pro 60K oferece 60000 tragadas com configuração de tripla Mesh Coil de 1,0 Ω.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "60000 tragadas"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@type": "Product",
+              "name": "VapSolo Master 70K",
+              "image": "https://vapsolovape.pt/img/vapsolo-master-70k-vape-descartável-portugal-strawberry-kiwi-70000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-master-70k-vape-descartavel-portugal",
+              "description": "VapSolo Master 70K oferece 70000 tragadas, bateria de 850 mAh e porta de carga USB Tipo-C.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "70000 tragadas"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@type": "Product",
+              "name": "VapSolo Quads 80K",
+              "image": "https://vapsolovape.pt/img/vapsolo-quads-80K-vape-descartável-portugal-strawberry-mango-watermelon-ice-80000-tragadas.png",
+              "url": "https://vapeportugal.pt/products/vapsolo-quads-80k-vape-descartavel-portugal",
+              "description": "VapSolo Quads 80K oferece 80000 tragadas, Mesh Coil de 1,0 Ω e boquilha rotativa multi-sabor.",
+              "brand": {
+                "@type": "Brand",
+                "name": "VapSolo"
+              },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Capacidade",
+                  "value": "80000 tragadas"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
