@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="pt">
+﻿<!DOCTYPE html>
+<html lang="pt-PT">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="VapSolo Portugal — Vape descartável premium com até 80000 tragadas, sabores intensos e opções com ou sem nicotina. Descobre cigarros eletrónicos modernos, desempenho duradouro e a melhor experiência de vape em Portugal.">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <title>VapSolo Vapes Descartáveis Cigarros Electrónicos 12K - 80K Tragadas</title>
+<link rel="canonical" href="https://vapsolovape.pt/">
+<meta property="og:title" content="VapSolo Vapes Descartáveis Cigarros Electrónicos 12K - 80K Tragadas">
+<meta property="og:description" content="VapSolo Portugal — Vape descartável premium com até 80000 tragadas, sabores intensos e opções com ou sem nicotina. Descobre cigarros eletrónicos modernos, desempenho duradouro e a melhor experiência de vape em Portugal.">
+<meta property="og:image" content="https://vapsolovape.pt/web-app-manifest-512x512.png">
+<meta property="og:url" content="https://vapsolovape.pt/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_PT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VapSolo Vapes Descartáveis Cigarros Electrónicos 12K - 80K Tragadas">
+<meta name="twitter:description" content="VapSolo Portugal — Vape descartável premium com até 80000 tragadas, sabores intensos e opções com ou sem nicotina. Descobre cigarros eletrónicos modernos, desempenho duradouro e a melhor experiência de vape em Portugal.">
+<meta name="twitter:image" content="https://vapsolovape.pt/web-app-manifest-512x512.png">
 <script>
 try {
   if (window.localStorage.getItem('vapsolo_age_verified') === 'true') {
@@ -18,37 +30,31 @@ try {
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
 <link rel="manifest" href="site.webmanifest" />
-<!-- TODO: Add Product offers only when real visible prices and stock status are available on this static page. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "OnlineStore",
+      "@type": "Organization",
       "@id": "https://vapsolovape.pt/#organization",
-      "name": "VapSolo Portugal",
+      "name": "VapSolo Vapes Descartáveis",
+      "description": "VapSolo Vapes Descartáveis é uma página informativa em português que apresenta modelos, coleções e links relacionados com produtos disponíveis em vapeportugal.pt.",
       "url": "https://vapsolovape.pt/",
       "logo": "https://vapsolovape.pt/favicon-96x96.png",
       "image": "https://vapsolovape.pt/web-app-manifest-512x512.png",
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "email": "info@vapeportugal.pt",
-          "telephone": "+351935718678",
-          "contactType": "customer support",
-          "areaServed": "PT",
-          "availableLanguage": [
-            "Portuguese"
-          ]
-        }
-      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support via vapeportugal.pt",
+        "telephone": "+351935718678",
+        "email": "info@vapeportugal.pt",
+        "areaServed": "PT",
+        "availableLanguage": "pt-PT"
+      },
       "areaServed": {
         "@type": "Country",
         "name": "Portugal"
       },
-      "availableLanguage": [
-        "pt-PT"
-      ]
+      "availableLanguage": "pt-PT"
     },
     {
       "@type": "WebSite",
@@ -67,17 +73,23 @@ try {
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Página Inicial",
+          "name": "Página inicial",
           "item": "https://vapsolovape.pt/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "VapSolo Vapes Descartáveis",
+          "item": "https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal"
         }
       ]
     },
     {
       "@type": "CollectionPage",
       "@id": "https://vapsolovape.pt/#collection",
-      "name": "VapSolo Vapes Descartáveis em Portugal",
+      "name": "VapSolo — Cigarros Eletrónicos Descartáveis 12K – 80K Tragadas",
       "url": "https://vapsolovape.pt/",
-      "description": "Vape descartável premium com modelos VapSolo de 12000 a 80000 tragadas, sabores intensos e opções com ou sem nicotina em Portugal.",
+      "description": "VapSolo Portugal — Vape descartável premium com até 80000 tragadas, sabores intensos e opções com ou sem nicotina. Descobre cigarros eletrónicos modernos, desempenho duradouro e a melhor experiência de vape em Portugal.",
       "isPartOf": {
         "@id": "https://vapsolovape.pt/#website"
       },
@@ -87,236 +99,125 @@ try {
       "breadcrumb": {
         "@id": "https://vapsolovape.pt/#breadcrumb"
       },
-      "inLanguage": "pt-PT",
       "mainEntity": {
-        "@type": "ItemList",
-        "@id": "https://vapsolovape.pt/#products",
-        "name": "Produtos VapSolo",
-        "itemListOrder": "https://schema.org/ItemListOrderAscending",
-        "numberOfItems": 10,
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarro Eletrónico Descartável Viking 12K",
-              "image": "https://vapsolovape.pt/img/vapsolo-viking-12k-vape-descartável-portugal-strawberry-raspberry-ice-12000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-viking-12k-vape-descartavel-portugal",
-              "description": "VapSolo Viking 12K oferece 12000 tragadas com construção sólida e desempenho fiável.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "12000 tragadas"
-                }
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarro Eletrónico Descartável Super 15K",
-              "image": "https://vapsolovape.pt/img/vapsolo-super-15k-vape-descartável-portugal-blackberry-blueberry-ice-15000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-super-15k-vape-descartavel-portugal",
-              "description": "VapSolo Super 15K oferece 15000 tragadas com resposta rápida e passada suave.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "15000 tragadas"
-                }
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarro Eletrónico Descartável Twins 20K",
-              "image": "https://vapsolovape.pt/img/vapsolo-twins-20k-vape-descartável-portugal-watermelon-ice-strawberry-mango-20000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-twins-20k-vape-descartavel-portugal",
-              "description": "VapSolo Twins 20K oferece 20000 tragadas e tecnologia de dupla resistência para uso diário.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "20000 tragadas"
-                }
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "item": {
-              "@type": "Product",
-              "name": "VapSolo Triple 30K",
-              "image": "https://vapsolovape.pt/img/vapsolo-triple-30k-vape-descartável-portugal-watermelon-ice-red-bull-strawberry-kiwi-30000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-triple-30k-vape-descartavel-portugal",
-              "description": "VapSolo Triple 30K oferece 30000 tragadas com configuração de tripla bobine.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "30000 tragadas"
-                }
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 5,
-            "item": {
-              "@type": "Product",
-              "name": "VapSolo King Pro 40K",
-              "image": "https://vapsolovape.pt/img/vapsolo-king-pro-40k-vape-descartável-portugal-peach-mango-pineapple-40000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-king-pro-40k-vape-descartavel-portugal",
-              "description": "VapSolo King Pro 40K oferece 40000 tragadas com entrega de sabor consistente e design elegante.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "40000 tragadas"
-                }
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 6,
-            "item": {
-              "@type": "Product",
-              "name": "VapSolo Mars 50K",
-              "image": "https://vapsolovape.pt/img/vapsolo-mars-50k-vape-descartável-portuga-peach-lemonade-50000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-mars-50k-vape-descartavel-portugal",
-              "description": "VapSolo Mars 50K oferece 50000 tragadas com tecnologia de fluxo de ar ajustável.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "50000 tragadas"
-                }
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 7,
-            "item": {
-              "@type": "Product",
-              "name": "VapSolo Twins Pro 50K",
-              "image": "https://vapsolovape.pt/img/vapsolo-twins-pro-50k-vape-descartável-portugal-passion-fruit-mojito-triple-mint-50000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-twins-pro-50k-vape-descartavel-portugal",
-              "description": "VapSolo Twins Pro 50K oferece 50000 tragadas, dupla Mesh Coil de 1,0 Ω e bateria recarregável USB Tipo-C.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "50000 tragadas"
-                }
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 8,
-            "item": {
-              "@type": "Product",
-              "name": "VapSolo Triple Pro 60K",
-              "image": "https://vapsolovape.pt/img/vapsolo-triple-pro-60k-vape-descartável-portugal-strawberry-vanilla-coke-blueberry-raspberry-lemon-lime-60000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-triple-pro-60k-vape-descartavel-portugal",
-              "description": "VapSolo Triple Pro 60K oferece 60000 tragadas com configuração de tripla Mesh Coil de 1,0 Ω.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "60000 tragadas"
-                }
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 9,
-            "item": {
-              "@type": "Product",
-              "name": "VapSolo Master 70K",
-              "image": "https://vapsolovape.pt/img/vapsolo-master-70k-vape-descartável-portugal-strawberry-kiwi-70000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-master-70k-vape-descartavel-portugal",
-              "description": "VapSolo Master 70K oferece 70000 tragadas, bateria de 850 mAh e porta de carga USB Tipo-C.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "70000 tragadas"
-                }
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 10,
-            "item": {
-              "@type": "Product",
-              "name": "VapSolo Quads 80K",
-              "image": "https://vapsolovape.pt/img/vapsolo-quads-80K-vape-descartável-portugal-strawberry-mango-watermelon-ice-80000-tragadas.png",
-              "url": "https://vapeportugal.pt/products/vapsolo-quads-80k-vape-descartavel-portugal",
-              "description": "VapSolo Quads 80K oferece 80000 tragadas, Mesh Coil de 1,0 Ω e boquilha rotativa multi-sabor.",
-              "brand": {
-                "@type": "Brand",
-                "name": "VapSolo"
-              },
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Capacidade",
-                  "value": "80000 tragadas"
-                }
-              ]
-            }
+        "@id": "https://vapsolovape.pt/#itemlist"
+      },
+      "inLanguage": "pt-PT"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://vapsolovape.pt/#itemlist",
+      "name": "Lista de modelos apresentados nesta página",
+      "numberOfItems": 10,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Viking 12K",
+          "url": "https://vapeportugal.pt/products/vapsolo-viking-12k-vape-descartavel-portugal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Super 15K",
+          "url": "https://vapeportugal.pt/products/vapsolo-super-15k-vape-descartavel-portugal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Twins 20K",
+          "url": "https://vapeportugal.pt/products/vapsolo-twins-20k-vape-descartavel-portugal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Twins Pro 50K",
+          "url": "https://vapeportugal.pt/products/vapsolo-twins-pro-50k-vape-descartavel-portugal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Triple Pro 60K",
+          "url": "https://vapeportugal.pt/products/vapsolo-triple-pro-60k-vape-descartavel-portugal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Master 70K",
+          "url": "https://vapeportugal.pt/products/vapsolo-master-70k-vape-descartavel-portugal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Quads 80K",
+          "url": "https://vapeportugal.pt/products/vapsolo-quads-80k-vape-descartavel-portugal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Triple 30K",
+          "url": "https://vapeportugal.pt/products/vapsolo-triple-30k-vape-descartavel-portugal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "King Pro 40K",
+          "url": "https://vapeportugal.pt/products/vapsolo-king-pro-40k-vape-descartavel-portugal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Mars 50K",
+          "url": "https://vapeportugal.pt/products/vapsolo-mars-50k-vape-descartavel-portugal"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://vapsolovape.pt/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é esta página?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esta página apresenta o universo VapSolo em português, com modelos, sabores e ligações para a coleção VapSolo disponível em vapeportugal.pt."
           }
-        ]
-      }
+        },
+        {
+          "@type": "Question",
+          "name": "Esta página é uma loja online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Esta página funciona como uma página informativa e não inclui carrinho, checkout ou pagamento próprios. A consulta dos produtos é feita em vapeportugal.pt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que modelos ou coleções são apresentados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A página apresenta Viking 12K, Super 15K, Twins 20K, Triple 30K, King Pro 40K, Mars 50K, Twins Pro 50K, Triple Pro 60K, Master 70K e Quads 80K, além da coleção VapSolo em vapeportugal.pt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onde posso consultar os produtos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Os produtos e a coleção principal podem ser consultados em vapeportugal.pt, incluindo a coleção VapSolo Vapes Descartáveis Portugal e as páginas individuais de cada modelo ligadas nesta página."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Para quem é destinado este conteúdo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O conteúdo destina-se a adultos com 18 anos ou mais interessados em modelos VapSolo, sabores e informação relacionada com vapes em Portugal."
+          }
+        }
+      ],
+      "inLanguage": "pt-PT"
     }
   ]
 }
@@ -339,15 +240,15 @@ try {
 
 <!-- Nav -->
 <nav>
-  <img src="favicon-96x96.png" alt="VapSolo Logo" class="logo">
+  <img src="favicon-96x96.png" alt="VapSolo Logo" class="logo" decoding="async" loading="lazy">
   <ul class="nav-links">
-    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Página Inicial</a></li>
-    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Produtos</a></li>
-    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Sobre Nós</a></li>
-    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Blog</a></li>
-    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Contacto</a></li>
+    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Página Inicial</a></li>
+    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Produtos</a></li>
+    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Sobre Nós</a></li>
+    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Blog</a></li>
+    <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Contacto</a></li>
   </ul>
-  <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="btn-primary nav-cta">Compre já!</a>
+  <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="btn-primary nav-cta" target="_blank">Compre já!</a>
   <div class="hamburger"><span></span><span></span><span></span></div>
 </nav>
 
@@ -358,7 +259,7 @@ try {
       <div class="hero-badge">Vapes Descartáveis Premium</div>
       <h1>VapSolo — Cigarros Eletrónicos Descartáveis<br><span>12K – 80K Tragadas</span></h1>
       <p>O VapSolo é o vape descartável premium que os vapers em Portugal escolhem. Com modelos de 12000 a 80000 tragadas, sabores de vape intensos e tecnologia de ponta, é a resposta definitiva para quem procura um cigarro eletrónico descartável confiável com ou sem nicotina.</p>
-      <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="btn-primary">Compre já!</a>
+      <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="btn-primary" target="_blank">Compre já!</a>
       <div class="hero-stats">
         <div class="hero-stat"><div class="num" data-target="45" data-suffix="K+">45K+</div><div class="label">Vendidos</div></div>
         <div class="hero-stat"><div class="num" data-target="15" data-suffix="K+">15K+</div><div class="label">Avaliações positivas</div></div>
@@ -367,7 +268,7 @@ try {
     </div>
     <div class="hero-image fade-up" style="transition-delay:.15s">
       <div class="hero-img-placeholder">
-        <img src="img/vapsolo-vape-descartável-portugal-vários-sabores.png" alt="VapSolo Vapes Descartáveis" class="product-img">
+        <img src="img/vapsolo-vape-descartável-portugal-vários-sabores.png" alt="VapSolo Vapes Descartáveis" class="product-img" decoding="async">
         <div class="hero-badge-corner">#1 Produto</div>
       </div>
     </div>
@@ -385,35 +286,35 @@ try {
   <div class="products-grid">
     <div class="product-card fade-up">
       <div class="product-img">
-        <img src="img/vapsolo-viking-12k-vape-descartável-portugal-strawberry-raspberry-ice-12000-tragadas.png" alt="Vapsolo Viking 12K Vape Descartável" class="product-img">
+        <img src="img/vapsolo-viking-12k-vape-descartável-portugal-strawberry-raspberry-ice-12000-tragadas.png" alt="Vapsolo Viking 12K Vape Descartável" class="product-img" decoding="async" loading="lazy">
         <div class="img-label">Viking 12K</div>
       </div>
       <div class="product-info">
         <h3>Cigarro Eletrónico Descartável Viking 12K</h3>
         <span class="product-puffs">12 000 Tragadas</span>
-        <a href="https://vapeportugal.pt/products/vapsolo-viking-12k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+        <a href="https://vapeportugal.pt/products/vapsolo-viking-12k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
       </div>
     </div>
     <div class="product-card fade-up" style="transition-delay:.1s">
       <div class="product-img">
-        <img src="img/vapsolo-super-15k-vape-descartável-portugal-blackberry-blueberry-ice-15000-tragadas.png" alt="Vapsolo Super 15K Vape Descartável" class="product-img">
+        <img src="img/vapsolo-super-15k-vape-descartável-portugal-blackberry-blueberry-ice-15000-tragadas.png" alt="Vapsolo Super 15K Vape Descartável" class="product-img" decoding="async" loading="lazy">
         <div class="img-label">Super 15K</div>
       </div>
       <div class="product-info">
         <h3>Cigarro Eletrónico Descartável Super 15K</h3>
         <span class="product-puffs">15 000 Tragadas</span>
-        <a href="https://vapeportugal.pt/products/vapsolo-super-15k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+        <a href="https://vapeportugal.pt/products/vapsolo-super-15k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
       </div>
     </div>
     <div class="product-card fade-up" style="transition-delay:.2s">
       <div class="product-img">
-        <img src="img/vapsolo-twins-20k-vape-descartável-portugal-watermelon-ice-strawberry-mango-20000-tragadas.png" alt="Vapsolo Twins 20K Vape Descartável" class="product-img">
+        <img src="img/vapsolo-twins-20k-vape-descartável-portugal-watermelon-ice-strawberry-mango-20000-tragadas.png" alt="Vapsolo Twins 20K Vape Descartável" class="product-img" decoding="async" loading="lazy">
         <div class="img-label">Twins 20K</div>
       </div>
       <div class="product-info">
         <h3>Cigarro Eletrónico Descartável Twins 20K</h3>
         <span class="product-puffs">20 000 Tragadas</span>
-        <a href="https://vapeportugal.pt/products/vapsolo-twins-20k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+        <a href="https://vapeportugal.pt/products/vapsolo-twins-20k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
       </div>
     </div>
   </div>
@@ -443,10 +344,10 @@ try {
           <div class="spec-value">20 mg/ml / 50 mg/ml</div>
         </div>
       </div>
-      <a href="https://vapeportugal.pt/products/vapsolo-twins-pro-50k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+      <a href="https://vapeportugal.pt/products/vapsolo-twins-pro-50k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
     </div>
     <div class="feature-img">
-      <img src="img/vapsolo-twins-pro-50k-vape-descartável-portugal-passion-fruit-mojito-triple-mint-50000-tragadas.png" alt="Vapsolo Twins Pro 50K Vape Descartável">
+      <img src="img/vapsolo-twins-pro-50k-vape-descartável-portugal-passion-fruit-mojito-triple-mint-50000-tragadas.png" alt="Vapsolo Twins Pro 50K Vape Descartável" decoding="async" loading="lazy">
     </div>
   </div>
 </section>
@@ -477,10 +378,10 @@ try {
           <div class="spec-value">20 mg/ml / 50 mg/ml</div>
         </div>
       </div>
-      <a href="https://vapeportugal.pt/products/vapsolo-triple-pro-60k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+      <a href="https://vapeportugal.pt/products/vapsolo-triple-pro-60k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
     </div>
     <div class="feature-img">
-      <img src="img/vapsolo-triple-pro-60k-vape-descartável-portugal-strawberry-vanilla-coke-blueberry-raspberry-lemon-lime-60000-tragadas.png" alt="Vapsolo Triple Pro 60K Vape Descartável">
+      <img src="img/vapsolo-triple-pro-60k-vape-descartável-portugal-strawberry-vanilla-coke-blueberry-raspberry-lemon-lime-60000-tragadas.png" alt="Vapsolo Triple Pro 60K Vape Descartável" decoding="async" loading="lazy">
     </div>
   </div>
 </section>
@@ -509,10 +410,10 @@ try {
           <div class="spec-value">20 mg/ml / 50 mg/ml</div>
         </div>
       </div>
-      <a href="https://vapeportugal.pt/products/vapsolo-master-70k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+      <a href="https://vapeportugal.pt/products/vapsolo-master-70k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
     </div>
     <div class="feature-img">
-      <img src="img/vapsolo-master-70k-vape-descartável-portugal-strawberry-kiwi-70000-tragadas.png" alt="Vapsolo Master 70K Vape Descartável">
+      <img src="img/vapsolo-master-70k-vape-descartável-portugal-strawberry-kiwi-70000-tragadas.png" alt="Vapsolo Master 70K Vape Descartável" decoding="async" loading="lazy">
     </div>
   </div>
 </section>
@@ -543,10 +444,10 @@ try {
           <div class="spec-value">20 mg/ml / 50 mg/ml</div>
         </div>
       </div>
-      <a href="https://vapeportugal.pt/products/vapsolo-quads-80k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+      <a href="https://vapeportugal.pt/products/vapsolo-quads-80k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
     </div>
     <div class="feature-img">
-      <img src="img/vapsolo-quads-80K-vape-descartável-portugal-strawberry-mango-watermelon-ice-80000-tragadas.png" alt="Vapsolo Quads 80K Vape Descartável">
+      <img src="img/vapsolo-quads-80K-vape-descartável-portugal-strawberry-mango-watermelon-ice-80000-tragadas.png" alt="Vapsolo Quads 80K Vape Descartável" decoding="async" loading="lazy">
     </div>
   </div>
 </section>
@@ -564,35 +465,35 @@ try {
   <div class="products-grid">
     <div class="product-card fade-up">
       <div class="product-img">
-        <img src="img/vapsolo-triple-30k-vape-descartável-portugal-watermelon-ice-red-bull-strawberry-kiwi-30000-tragadas.png" alt="Vapsolo Triple 30K Vape Descartável" class="product-img">
+        <img src="img/vapsolo-triple-30k-vape-descartável-portugal-watermelon-ice-red-bull-strawberry-kiwi-30000-tragadas.png" alt="Vapsolo Triple 30K Vape Descartável" class="product-img" decoding="async" loading="lazy">
         <div class="img-label">Triple 30K</div>
       </div>
       <div class="product-info">
         <h3>Cigarro Eletrónico Descartável Triple 30K</h3>
         <span class="product-puffs">30 000 Tragadas</span>
-        <a href="https://vapeportugal.pt/products/vapsolo-triple-30k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+        <a href="https://vapeportugal.pt/products/vapsolo-triple-30k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
       </div>
     </div>
     <div class="product-card fade-up" style="transition-delay:.1s">
       <div class="product-img">
-        <img src="img/vapsolo-king-pro-40k-vape-descartável-portugal-peach-mango-pineapple-40000-tragadas.png" alt="Vapsolo King Pro 40K Vape Descartável" class="product-img">
+        <img src="img/vapsolo-king-pro-40k-vape-descartável-portugal-peach-mango-pineapple-40000-tragadas.png" alt="Vapsolo King Pro 40K Vape Descartável" class="product-img" decoding="async" loading="lazy">
         <div class="img-label">King Pro 40K</div>
       </div>
       <div class="product-info">
         <h3>Cigarro Eletrónico Descartável King Pro 40K</h3>
         <span class="product-puffs">40 000 Tragadas</span>
-        <a href="https://vapeportugal.pt/products/vapsolo-king-pro-40k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+        <a href="https://vapeportugal.pt/products/vapsolo-king-pro-40k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
       </div>
     </div>
     <div class="product-card fade-up" style="transition-delay:.2s">
       <div class="product-img">
-        <img src="img/vapsolo-mars-50k-vape-descartável-portuga-peach-lemonade-50000-tragadas.png" alt="Vapsolo Mars 50K Vape Descartável" class="product-img">
+        <img src="img/vapsolo-mars-50k-vape-descartável-portuga-peach-lemonade-50000-tragadas.png" alt="Vapsolo Mars 50K Vape Descartável" class="product-img" decoding="async" loading="lazy">
         <div class="img-label">Mars 50K</div>
       </div>
       <div class="product-info">
         <h3>Cigarro Eletrónico Descartável Mars 50K</h3>
         <span class="product-puffs">50 000 Tragadas</span>
-        <a href="https://vapeportugal.pt/products/vapsolo-mars-50k-vape-descartavel-portugal" class="btn-primary">Compre já!</a>
+        <a href="https://vapeportugal.pt/products/vapsolo-mars-50k-vape-descartavel-portugal" class="btn-primary" target="_blank">Compre já!</a>
       </div>
     </div>
   </div>
@@ -609,27 +510,27 @@ try {
       ice premium e uma experiência de vaping moderna, suave e cheia de sabor.</p>
   </div>
   <div class="flavors-grid">
-    <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="flavor-card fade-up">
+    <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="flavor-card fade-up" target="_blank">
       <div class="flavor-img">
-        <img src="img/Vários-Sabores-Blue-Razz-Ice.png" alt="Vapsolo Blue Razz Ice">
+        <img src="img/Vários-Sabores-Blue-Razz-Ice.png" alt="Vapsolo Blue Razz Ice" decoding="async" loading="lazy">
       </div>
       <div class="flavor-name">Blue Razz Ice</div>
     </a>
-    <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="flavor-card fade-up" style="transition-delay:.08s">
+    <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="flavor-card fade-up" style="transition-delay:.08s" target="_blank">
       <div class="flavor-img">
-        <img src="img/Vários-Sabores-Grape-Ice.png" alt="Vapsolo Grape Ice">
+        <img src="img/Vários-Sabores-Grape-Ice.png" alt="Vapsolo Grape Ice" decoding="async" loading="lazy">
       </div>
       <div class="flavor-name">Grape Ice</div>
     </a>
-    <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="flavor-card fade-up" style="transition-delay:.16s">
+    <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="flavor-card fade-up" style="transition-delay:.16s" target="_blank">
       <div class="flavor-img">
-        <img src="img/Vários-Sabores-Strawberry-Banana.png" alt="Vapsolo Strawberry Banana">
+        <img src="img/Vários-Sabores-Strawberry-Banana.png" alt="Vapsolo Strawberry Banana" decoding="async" loading="lazy">
       </div>
       <div class="flavor-name">Strawberry Banana</div>
     </a>
-    <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="flavor-card fade-up" style="transition-delay:.24s">
+    <a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" class="flavor-card fade-up" style="transition-delay:.24s" target="_blank">
       <div class="flavor-img">
-        <img src="img/Vários-Sabores-Watermelon-Ice.png" alt="Vapsolo Watermelon Ice">
+        <img src="img/Vários-Sabores-Watermelon-Ice.png" alt="Vapsolo Watermelon Ice" decoding="async" loading="lazy">
       </div>
       <div class="flavor-name">Watermelon Ice</div>
     </a>
@@ -661,41 +562,58 @@ try {
   </div>
 </section>
 
+<div class="divider"></div>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="fade-up">
+    <h2 class="section-title">Perguntas <span>frequentes</span></h2>
+    <p class="section-sub">Informação essencial sobre esta página e sobre as ligações para vapeportugal.pt.</p>
+  </div>
+  <div class="desc-grid">
+    <div class="desc-card fade-up"><h3>O que é esta página?</h3><p>Esta página apresenta o universo VapSolo em português, com modelos, sabores e ligações para a coleção VapSolo disponível em vapeportugal.pt.</p></div>
+    <div class="desc-card fade-up" style="transition-delay:.08s"><h3>Esta página é uma loja online?</h3><p>Não. Esta página funciona como uma página informativa e não inclui carrinho, checkout ou pagamento próprios. A consulta dos produtos é feita em vapeportugal.pt.</p></div>
+    <div class="desc-card fade-up" style="transition-delay:.16s"><h3>Que modelos ou coleções são apresentados?</h3><p>A página apresenta Viking 12K, Super 15K, Twins 20K, Triple 30K, King Pro 40K, Mars 50K, Twins Pro 50K, Triple Pro 60K, Master 70K e Quads 80K, além da coleção VapSolo em vapeportugal.pt.</p></div>
+    <div class="desc-card fade-up" style="transition-delay:.24s"><h3>Onde posso consultar os produtos?</h3><p>Os produtos e a coleção principal podem ser consultados em vapeportugal.pt, incluindo a coleção VapSolo Vapes Descartáveis Portugal e as páginas individuais de cada modelo ligadas nesta página.</p></div>
+    <div class="desc-card fade-up" style="transition-delay:.32s"><h3>Para quem é destinado este conteúdo?</h3><p>O conteúdo destina-se a adultos com 18 anos ou mais interessados em modelos VapSolo, sabores e informação relacionada com vapes em Portugal.</p></div>
+  </div>
+</section>
+
 <!-- Footer -->
 <footer>
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
-        <img src="favicon-96x96.png" alt="VapSolo Logo" class="logo">
+        <img src="favicon-96x96.png" alt="VapSolo Logo" class="logo" decoding="async" loading="lazy">
         <p>Vapes descartáveis e cigarros eletrónicos de alta qualidade com muitas passadas em Portugal.</p>
         <div class="contact">
-          <div><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">info@vapeportugal.pt</a></div>
+          <div><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">info@vapeportugal.pt</a></div>
           <div>+351 935 718 678</div>
         </div>
       </div>
       <div class="footer-col">
         <h4>Produtos</h4>
         <ul>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-quads-80k-vape-descartavel-portugal">Quads 80K</a></li>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-master-70k-vape-descartavel-portugal">Master 70K</a></li>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-triple-pro-60k-vape-descartavel-portugal">Triple Pro 60K</a></li>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-mars-50k-vape-descartavel-portugal">Mars 50K</a></li>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-twins-pro-50k-vape-descartavel-portugal">Twins Pro 50K</a></li>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-king-pro-40k-vape-descartavel-portugal">King Pro 40K</a></li>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-triple-30k-vape-descartavel-portugal">Triple 30K</a></li>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-twins-20k-vape-descartavel-portugal">Twins 20K</a></li>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-super-15k-vape-descartavel-portugal">Super 15K</a></li>
-          <li><a href="https://vapeportugal.pt/products/vapsolo-viking-12k-vape-descartavel-portugal">Viking 12K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-quads-80k-vape-descartavel-portugal" target="_blank">Quads 80K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-master-70k-vape-descartavel-portugal" target="_blank">Master 70K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-triple-pro-60k-vape-descartavel-portugal" target="_blank">Triple Pro 60K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-mars-50k-vape-descartavel-portugal" target="_blank">Mars 50K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-twins-pro-50k-vape-descartavel-portugal" target="_blank">Twins Pro 50K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-king-pro-40k-vape-descartavel-portugal" target="_blank">King Pro 40K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-triple-30k-vape-descartavel-portugal" target="_blank">Triple 30K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-twins-20k-vape-descartavel-portugal" target="_blank">Twins 20K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-super-15k-vape-descartavel-portugal" target="_blank">Super 15K</a></li>
+          <li><a href="https://vapeportugal.pt/products/vapsolo-viking-12k-vape-descartavel-portugal" target="_blank">Viking 12K</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Links Rápidos</h4>
         <ul>
-          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Página Inicial</a></li>
-          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Produtos</a></li>
-          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Sobre Nós</a></li>
-          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Blog</a></li>
-          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">Contacto</a></li>
+          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Página Inicial</a></li>
+          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Produtos</a></li>
+          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Sobre Nós</a></li>
+          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Blog</a></li>
+          <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">Contacto</a></li>
         </ul>
       </div>
     </div>
@@ -709,56 +627,56 @@ try {
         </button>
         <div class="cities-body" id="citiesBody">
           <ul class="footer-cities">
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Lisbon</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Porto</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Braga</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Coimbra</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Faro</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Aveiro</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Cascais</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Sintra</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Lagos</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Albufeira</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Évora</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Guimarães</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Viseu</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Setúbal</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Leiria</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Portimão</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Funchal</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Vila Nova de Gaia</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Ponta Delgada</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Bragança</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Viana do Castelo</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Covilhã</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Tomar</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Beja</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Elvas</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Tavira</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Olhão</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Peniche</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Nazaré</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Ericeira</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Torres Vedras</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Barcelos</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Chaves</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Espinho</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Matosinhos</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Amarante</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Santarém</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Castelo Branco</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Guarda</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Lamego</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Almada</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Oeiras</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Seixal</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Montijo</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Sesimbra</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Palmela</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Entroncamento</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Abrantes</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Figueira da Foz</a></li>
-            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal">VapSolo em Peso da Régua</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Lisbon</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Porto</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Braga</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Coimbra</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Faro</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Aveiro</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Cascais</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Sintra</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Lagos</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Albufeira</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Évora</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Guimarães</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Viseu</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Setúbal</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Leiria</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Portimão</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Funchal</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Vila Nova de Gaia</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Ponta Delgada</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Bragança</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Viana do Castelo</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Covilhã</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Tomar</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Beja</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Elvas</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Tavira</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Olhão</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Peniche</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Nazaré</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Ericeira</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Torres Vedras</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Barcelos</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Chaves</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Espinho</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Matosinhos</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Amarante</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Santarém</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Castelo Branco</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Guarda</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Lamego</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Almada</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Oeiras</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Seixal</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Montijo</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Sesimbra</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Palmela</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Entroncamento</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Abrantes</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Figueira da Foz</a></li>
+            <li><a href="https://vapeportugal.pt/collections/vapsolo-vapes-descartaveis-portugal" target="_blank">VapSolo em Peso da Régua</a></li>
           </ul>
         </div>
       </div>
@@ -772,3 +690,4 @@ try {
 <script src="main.js"></script>
 </body>
 </html>
+
